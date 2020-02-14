@@ -1,4 +1,9 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "author" : "Karen Zuñiga",
+  "dependencies": {
+    "bower": "^1.8.8",
+    "markdown-it": "^10.0.0"
+  }
 }
