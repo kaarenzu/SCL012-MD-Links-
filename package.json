@@ -1,9 +1,28 @@
 {
   "name": "md-links",
   "version": "0.1.0",
-  "author" : "Karen Zuñiga",
+  "author": "Karen Zuñiga",
   "dependencies": {
     "bower": "^1.8.8",
-    "markdown-it": "^10.0.0"
-  }
+    "markdown-it": "^10.0.0",
+    "markdown-link-extractor": "^1.2.2"
+  },
+  "description": "* [1. Preámbulo](#1-preámbulo)\r * [2. Resumen del proyecto](#2-resumen-del-proyecto)\r * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)\r * [4. Consideraciones generales](#4-consideraciones-generales)\r * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)\r * [6. Entregables](#6-entregables)\r * [7. Hacker edition](#7-hacker-edition)\r * [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)\r * [9. Checklist](#9-checklist)",
+  "main": "direct-arch.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaarenzu/SCL012-MD-Links-.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaarenzu/SCL012-MD-Links-/issues"
+  },
+  "homepage": "https://github.com/kaarenzu/SCL012-MD-Links-#readme"
 }
