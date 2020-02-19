@@ -20,10 +20,9 @@ Este fue el diagrama de flujo para poder resolver este proyecto
 
 
 ## 3. Contenido de cada modulo 
-* `README.md` con descripción del módulo, instrucciones de instalación/uso,
-  documentación del API y ejemplos. Todo lo relevante para que cualquier
-  developer que quiera usar tu librería pueda hacerlo sin inconvenientes.
-* `index.js`: Desde este archivo debes exportar una función (`mdLinks`).
+* `direct-arch.js` Muestra [true]() si es efectivamente un directorio lo ingresado.
+* `readDir.js`: Muestra todos los archivos en formato [Markdown](https://es.wikipedia.org/wiki/Markdown) que existen en el directorio ingresado .
+* `readFile.js`: Lee todos los archivos .md y nos muestra cuantos link tiene cada uno.
 * `package.json` con nombre, versión, descripción, autores, licencia,
   dependencias, scripts (pretest, test, ...)
 * `.editorconfig` con configuración para editores de texto. Este archivo no se
