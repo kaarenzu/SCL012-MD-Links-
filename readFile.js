@@ -2,7 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const processArgv = process.argv[2];
 const markdownLink = require('markdown-link-extractor');
-const pathAbsolute = path.resolve(processArgv); 
+const pathAbsolute = path.resolve(processArgv);
+
 
 exports.readFile = (pathAbsolute) => {
   return new Promise((resolve, reject) => {
@@ -15,6 +16,6 @@ exports.readFile = (pathAbsolute) => {
 
 exports.readFile(pathAbsolute)
   .then(data => console.log(markdownLink(data)))
-  .catch(error => console.log(error));
+  .catch(error => console.log('aca hay un fail ' + error));
 
 

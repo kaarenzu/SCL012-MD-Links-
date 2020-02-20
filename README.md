@@ -16,7 +16,7 @@ Markdown Links es una librería de Node.js que nos permite buscar en un director
 
 ## 2. Diagrama de flujo
 Este fue el diagrama de flujo para poder resolver este proyecto 
-[Diagrama](..\imagen\diagrama.png)
+![Diagrama](imagen\diagrama.png)
 
 
 ## 3. Contenido de cada modulo 
@@ -40,3 +40,6 @@ Este fue el diagrama de flujo para poder resolver este proyecto
 
 
 ## 5. Ejemplos
+
+![directfile](imagen\directfile.png)
+
