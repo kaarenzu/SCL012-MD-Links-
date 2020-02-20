@@ -41,5 +41,12 @@ Este fue el diagrama de flujo para poder resolver este proyecto
 
 ## 5. Ejemplos
 
-![directfile](imagen\directfile.png)
+* `direct-arch.js`
+![Leer Directorio](imagen\readDir.png)
+
+* `direct-arch.js`
+![Validar Directorio](imagen\directfile.png)
+
+* `readFile.js`
+![Leer Archivo](imagen\readFile.png)
 
