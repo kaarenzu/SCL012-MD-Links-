@@ -16,7 +16,8 @@ Markdown Links es una librería de Node.js que nos permite buscar en un director
 
 ## 2. Diagrama de flujo
 Este fue el diagrama de flujo para poder resolver este proyecto 
-![Diagrama](imagen\diagrama.png)
+![Diagrama](https://github.com/kaarenzu/SCL012-MD-Links-/blob/developer/imagen/diagrama.png?raw=true)
+
 
 
 ## 3. Contenido de cada modulo 
@@ -41,12 +42,12 @@ Este fue el diagrama de flujo para poder resolver este proyecto
 
 ## 5. Ejemplos
 
-* `direct-arch.js`
-![Leer Directorio](.\imagen\readDir.png)
+* `readDir.js`
+![Leer Directorio](https://github.com/kaarenzu/SCL012-MD-Links-/blob/developer/imagen/readDir.png?raw=true)
 
 * `direct-arch.js`
-![Validar Directorio](.\imagen\directfile.png)
+![Validar Directorio](https://github.com/kaarenzu/SCL012-MD-Links-/blob/developer/imagen/directfile.png?raw=true)
 
 * `readFile.js`
-![Leer Archivo](.\imagen\readFile.png)
+![Leer Archivo](https://github.com/kaarenzu/SCL012-MD-Links-/blob/developer/imagen/readFile.png?raw=true)
 
