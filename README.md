@@ -5,14 +5,14 @@
 * [1. ¿Qué es Markdown Links?](#1-¿Qué-es-Markdown-Links?)
 * [2. Diagrama de flujo](#2-Diagrama-de-flujo)
 * [3. Contenido de cada Módulo](#3-Contenido-de-cada-Módulo)
-* [4. Intrucciones de instalacion /uso ](#4-Intrucciones-de-instalación-/uso)
-* [5. Ejemplos](#5-Ejemplos)
+* [4. Ejemplos](#4-Ejemplos)
 
 
-***
 
 ## 1. ¿Qué es Markdown Links?
-Markdown Links es una librería de Node.js que nos permite buscar en un directorio todos los archivos en formato [Markdown](https://es.wikipedia.org/wiki/Markdown) que en su interior contengan link y asi poder validar el estado actual de cada uno de ellos 
+Markdown Links es una librería de Node.js que nos permite buscar en un directorio todos los archivos en formato [Markdown](https://es.wikipedia.org/wiki/Markdown) que en su interior contengan link y asi poder validar el estado actual de cada uno de ellos.
+
+
 
 ## 2. Diagrama de flujo
 Este fue el diagrama de flujo para poder resolver este proyecto 
@@ -36,11 +36,8 @@ Este fue el diagrama de flujo para poder resolver este proyecto
   `mdLinks()`. Tu inplementación debe pasar estos tets.
 
 
-## 4. Intrucciones de instalación /uso
 
-
-
-## 5. Ejemplos
+## 4. Ejemplos
 
 * `readDir.js`
 ![Leer Directorio](https://github.com/kaarenzu/SCL012-MD-Links-/blob/developer/imagen/readDir.png?raw=true)

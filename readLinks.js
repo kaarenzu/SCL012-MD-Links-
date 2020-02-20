@@ -3,7 +3,7 @@ const markdownLink = require('markdown-link-extractor');
 const chalk = require('chalk');
 const fetch = require ('node-fetch')
 console.log(chalk.blue('hola soy azul'))
-var fetchUrl = require("fetch").fetchUrl;
+const fetchUrl = require("fetch").fetchUrl;
 
 
 // fetchUrl("http://kreata.ee/iso-8859-15.php",(error, meta, body) =>{

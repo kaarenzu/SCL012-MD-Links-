@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-let processArgv = process.argv[2];
-let pathAbsolute = path.resolve(processArgv); 
+const processArgv = process.argv[2];
+const pathAbsolute = path.resolve(processArgv); 
 
 function probar(){
   fs.stat(pathAbsolute, (err, stats) => {

@@ -2,6 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const processArgv = process.argv[2];
 const markdownLink = require('markdown-link-extractor');
+let vacio = [];
+let  arrayLinks = vacio.push();
 const pathAbsolute = path.resolve(processArgv);
 
 
@@ -15,7 +17,7 @@ const linkFile = (pathAbsolute) => {
 } 
 
 linkFile(pathAbsolute)
-  .then(data => console.log(data))
+  .then(perro => console.log(perro))
   .catch(error => console.log(error));
 
 
