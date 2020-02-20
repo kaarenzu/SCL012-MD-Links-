@@ -5,17 +5,17 @@ const markdownLink = require('markdown-link-extractor');
 const pathAbsolute = path.resolve(processArgv);
 
 
-exports.readFile = (pathAbsolute) => {
+const linkFile = (pathAbsolute) => {
   return new Promise((resolve, reject) => {
     fs.readFile(pathAbsolute, 'utf8', (error, data) => {
       if (error) return reject(error);
-      return resolve(data);
+      return resolve(markdownLink(data));
     })
   })
 } 
 
-exports.readFile(pathAbsolute)
-  .then(data => console.log(markdownLink(data)))
-  .catch(error => console.log('aca hay un fail ' + error));
+linkFile(pathAbsolute)
+  .then(data => console.log(data))
+  .catch(error => console.log(error));
 
 
